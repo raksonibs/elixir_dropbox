@@ -32,8 +32,7 @@ defmodule ElixirDropbox.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 1.8"},
-      {:poison, "~> 1.5"},
-      {:inch_ex, "~> 0.5", only: [:dev, :test]},
+      {:poison, "~> 4.0"},
       {:json, "~> 0.3.0"},
       {:ex_doc, "~> 0.14", only: :dev, runtime: false},
       {:exvcr, "~> 0.10", only: :test},
